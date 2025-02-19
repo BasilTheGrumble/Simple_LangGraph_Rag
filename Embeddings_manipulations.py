@@ -2,7 +2,6 @@ from sentence_transformers import SentenceTransformer
 from langchain.embeddings.base import Embeddings
 from langchain_community.vectorstores import FAISS
 from knowledge_base import prepared_answers
-import json
 
 
 class CustomEmbeddings(Embeddings):
